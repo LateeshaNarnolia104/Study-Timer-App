@@ -1,12 +1,28 @@
-# React + Vite
+Pomodoro Countdown Timer ⏰
+A cute, customizable Pomodoro timer built with React, Vite, and Tailwind CSS.
+Features preset focus times, background music toggle, and a vibrant orange-yellow-green theme.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Preset Focus Times: Quick-select buttons for 5, 10, 15, and 25 minutes.
 
-Currently, two official plugins are available:
+Responsive UI: Clean, glassmorphism-inspired design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Background Music: Optional looping music with a toggle.
 
-## Expanding the ESLint configuration
+Pause/Resume/Restart: Simple controls for your session.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Usage
+Click a preset time to start.
+
+Use the control buttons to pause, resume, or restart.
+
+Toggle background music on or off.
+
+Customization
+Preset Times: Edit the PRESET_TIMES array in Counter.jsx.
+
+Theme Colors: Adjust Tailwind classes for your palette.
+
+Background Image: Replace finalwallpaper.jpeg in BgImage.
+
+Music: Replace music.mp3 in public.
